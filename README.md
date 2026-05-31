@@ -6,9 +6,9 @@ This assignment is an introduction to OS system calls.
 
 | System calls  |  C  |  C++  |  Java  |  Python  |  Bash  |
 |---|---|---|---|---|---|
-|  `execve()`  | 1  |  1  |   |   |   |
-|  `open()` / `openat()`  |  2  |  5  |   |   |   |
-|  `close()`  |  2  |  5  |   |   |   |
-|  `read()`  |  1  |  4  |   |   |   |
-|  `write()`  |  1  |  1  |   |   |   |
-|  `mmap()` |  7  |  18  |   |   |   |
+|  `execve()`  | 1  |  1  |  1  | 1  |  1  |
+|  `open()` / `openat()`  |  2  |  5  |  21  |  33  |  20  |
+|  `close()`  |  2  |  5  |  10  |  28  |  7  |
+|  `read()`  |  1  |  4  |  9  |  34  |  5  |
+|  `write()`  |  1  |  1  |  0  |  1  |  1  |
+|  `mmap()` |  7  |  18  |  29  |  24  |  12  |
